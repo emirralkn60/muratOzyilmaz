@@ -1,0 +1,159 @@
+/* Genel stil ayarları */
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Header */
+  #header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+  }
+  
+  #header a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  .navbar-left ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .navbar-left ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  .account a {
+    margin-left: 20px;
+  }
+  
+  /* H1 stil ayarları */
+  .header-text h1 {
+    font-size: 36px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .header-text span {
+    color: #ff5733;
+  }
+  
+  /* About Me */
+  #about {
+    background-color: #fff;
+    padding: 40px 0;
+  }
+  
+  .about-text {
+    text-align: center;
+  }
+  
+  .about-text h2 {
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .about-text p {
+    font-size: 16px;
+    color: #666;
+  }
+  
+  /* Skills */
+  #skills {
+    background-color: #f0f0f0;
+    padding: 40px 0;
+  }
+  
+  .skills-title {
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .programing-skills {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .programing-skills img {
+    width: 60px;
+    height: 60px;
+    margin-right: 20px;
+  }
+  
+  .progress {
+    width: 60%;
+    background-color: #ccc;
+  }
+  
+  .inner-progress {
+    height: 20px;
+    background-color: #ff5733;
+    text-align: center;
+    line-height: 20px;
+    color: #fff;
+  }
+  
+  /* Contact */
+  #contact {
+    background-color: #fff;
+    padding: 40px 0;
+  }
+  
+  .title {
+    text-align: center;
+    font-size: 24px;
+    color: #333;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  input[type="submit"] {
+    background-color: #ff5733;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  /* Responsive Tasarım */
+  @media (max-width: 768px) {
+    .navbar-left ul li {
+      display: block;
+      margin-bottom: 10px;
+    }
+  
+    .account {
+      text-align: center;
+      margin-top: 20px;
+    }
+  
+    .programing-skills {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .programing-skills img {
+      margin: 0;
+      margin-bottom: 10px;
+    }
+  }
+  
